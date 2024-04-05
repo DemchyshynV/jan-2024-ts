@@ -29,6 +29,7 @@ class UserService {
         const id = users.length ? users.slice(-1)[0].id + 1 : 1;
         users.push({id, ...data})
         this._setToStorage(users)
+        ///ddddd
     }
 
     static showHtml(): void {
